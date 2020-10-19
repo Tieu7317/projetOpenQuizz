@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="71E-FO-Hob">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -13,19 +14,472 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Help-->
+        <scene sceneID="o7z-ta-qtd">
+            <objects>
+                <viewController id="QlM-sh-iqb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SzC-I6-O9Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" allowsEditingTextAttributes="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPq-X6-YUe">
+                                <rect key="frame" x="16" y="69" width="343" height="523"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="XuK-Zp-VhK"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">OK boomer !
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Nombre de joueurs
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">De 2 à 10
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Matériel
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">200 cartes comportant au recto six questions portant sur les six thèmes. Au verso, les six réponses. 
+1 dé à six faces numérotées de 1 à 6
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Les joueurs doivent aussi se munir d’une feuille ou d’un calepin pour noter les réponses et tenir le score. 
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">But du jeu
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Devenir le plus « éco-expert » en atteignant 50 points (ou 100 points selon nombre de joueurs et temps accordé à la partie)
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Déroulement
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Les 200 cartes sont posées au centre du jeu, faces retournées, en cinq tas de 200, par catégories.
+Les six catégories sont numérotées : 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">1.	Alimentation et agriculture
+2.	Climat et environnement (biodiversité, nature…)
+3.	Energie et économie (politique, les acteurs de l’écologie, personnalités)
+4.	Géographie et Histoire de l’écologie
+5.	Santé et éducation
+6.	Vie quotidienne, consommation
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" firstLineHeadIndent="18" headIndent="36" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">Tous les joueurs sont à 0 point. Chacun lance le dé, le plus haut score commence (si ex aequo, on recommence entre les ex aequo). C’est lui qui questionne. Il lance le dé et prend une carte. Il lit la question posée correspondant à la spécialité donnée par le dé. Chaque joueur écrit sa réponse, en la cachant de ses voisins. 
+Quand tout le monde a répondu, chacun lit sa réponse à haute voix. Le joueur qui a interrogé décerne un « OK Boomer » à la réponse fausse la plus stupide (ou la plus drôle). Il donne ensuite la bonne réponse. Les joueurs qui ont trouvé gagnent 5 points, le « boomer » perd 2 points. 
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">À la fin de chaque réponse, un forum serait disponible pour décerner qui est le boomer.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Avancement du jeu
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">On tourne dans le sens des aiguilles d’une montre. À chaque tour, le questionneur interroge ainsi les autres joueurs. 
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Fin du jeu
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Le premier joueur qui atteint 50 points a gagné. 
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Cas particulier
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Si vous jouez à deux, le fait de décerner des « OK boomer » à chaque tour peut vite apparaître comme une vengeance…
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">De même, si un joueur s’acharne sur un autre, cela paraît vite suspect. 
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Style de questions
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">Elles doivent être variées, intéressantes, parfois amusantes, avec des réponses qui seront-elles aussi intéressantes, amusantes et même parfois farfelues, et souvent surprenantes avec des pièges, des contradictions apparentes. Et on évitera, bien sûr, de sembler avantager tel ou tel lobby avec des questions orientées (qui favorisent le nucléaire, qui dénigrent l’éolien, qui ne jurent que par le véganisme etc…)
+On évitera d’accumuler les questions avec des chiffres ou des pourcentages, celles où l’on répond vraiment au hasard parce que personne n’en sait rien, et celles qui sont trop anxiogènes (« combien de personnes mourront de maladies liées à la pollution dans les dix ans à venir ?)
+Il faut réussir à être ludique, pédagogue et attractif pour donner envie de jouer à plusieurs, avec une part de hasard pour que ce ne soit pas juste de la culture et de la connaissance. 
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">On peut imaginer une version enfant (jusqu’à 13 ans), une version internationale, une version plus franco-française…
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Des exemples de questions
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.4392156862745098" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">1.	Un célèbre chef français a donné à un des ses plats d’huîtres le nom d’un bateau dont le naufrage provoqua une marée noire sur les côtes françaises. Quel est le nom de ce bateau et de ce plat ?
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" firstLineHeadIndent="18" headIndent="36" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">La bonne réponse est : Erika. Celui qui répond Titanic peut recevoir un Ok Boomer
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">2.	Avec quel pays autre que la Chine la Corée du Nord a-t-elle une frontière ?
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" firstLineHeadIndent="18" headIndent="36" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">La bonne réponse est : La Russie. Celui qui répond le Japon, l’Uruguay ou la Louisiane, mérite peut-être un OK Boomer. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">3.	A Angela Merkel qui lui disait consternée, « Non, on ne peut pas envoyer un homme sur le soleil, il brûlerait », ce dirigeant aurait répondu « Même si on l’envoie de nuit ? ». De qui s’agit-il ?
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" firstLineHeadIndent="18" headIndent="36" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">La bonne réponse est : Donald Trump. 
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+DQo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="432" lineHeightMultiple="1.1500000000000001" defaultTabInterval="35.399999999999999" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Règle du jeux" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6N-QE-6X4">
+                                <rect key="frame" x="16" y="28" width="343" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="3TL-31-lDe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O1y-4q-yIT"/>
+                        <color key="backgroundColor" red="0.31767772329999999" green="0.41863652550000002" blue="0.74141591790000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O1y-4q-yIT" firstAttribute="bottom" secondItem="JPq-X6-YUe" secondAttribute="bottom" constant="26" id="4AB-Qg-c0s"/>
+                            <constraint firstItem="M6N-QE-6X4" firstAttribute="leading" secondItem="O1y-4q-yIT" secondAttribute="leading" constant="16" id="9k6-DL-OYR"/>
+                            <constraint firstItem="JPq-X6-YUe" firstAttribute="top" secondItem="M6N-QE-6X4" secondAttribute="bottom" constant="8" symbolic="YES" id="MKx-Ni-1iA"/>
+                            <constraint firstItem="M6N-QE-6X4" firstAttribute="leading" secondItem="JPq-X6-YUe" secondAttribute="leading" id="PXf-SG-Yx3"/>
+                            <constraint firstItem="M6N-QE-6X4" firstAttribute="trailing" secondItem="JPq-X6-YUe" secondAttribute="trailing" id="bhc-Qg-IAn"/>
+                            <constraint firstItem="M6N-QE-6X4" firstAttribute="top" secondItem="O1y-4q-yIT" secondAttribute="top" constant="28" id="eBY-Ug-5uf"/>
+                            <constraint firstItem="O1y-4q-yIT" firstAttribute="trailing" secondItem="M6N-QE-6X4" secondAttribute="trailing" constant="16" id="qbi-mj-YYS"/>
+                            <constraint firstItem="JPq-X6-YUe" firstAttribute="leading" secondItem="O1y-4q-yIT" secondAttribute="leading" constant="16" id="w4O-GZ-xni"/>
+                            <constraint firstItem="O1y-4q-yIT" firstAttribute="trailing" secondItem="JPq-X6-YUe" secondAttribute="trailing" constant="16" id="wGy-UY-roJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" id="fEu-GV-WtE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FM5-za-Oqp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.80000000000001" y="-339.58020989505252"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="13O-Sb-Gx4">
+            <objects>
+                <tabBarController id="71E-FO-Hob" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I4i-jI-f5Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QlM-sh-iqb" kind="relationship" relationship="viewControllers" id="f5c-gQ-92j"/>
+                        <segue destination="Va0-wK-roA" kind="relationship" relationship="viewControllers" id="E1M-jQ-lL4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Yc-WF-htA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-522" y="-37"/>
+        </scene>
+        <!--Game-->
+        <scene sceneID="Zu0-tL-aof">
+            <objects>
+                <navigationController id="Va0-wK-roA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Game" id="DVU-6M-K7i"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wag-rV-M4t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fr1-Tn-fwX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ugT-eJ-cxT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="342"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OpenQuizz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jKp-W7-thQ" customClass="QuestionView" customModule="OpenQuizz" customModuleProvider="target">
-                                <rect key="frame" x="144" y="10" width="480" height="480"/>
+                                <rect key="frame" x="65" y="54" width="245" height="245"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Icon Error" translatesAutoresizingMaskIntoConstraints="NO" id="1oe-yd-RJ1">
-                                        <rect key="frame" x="204" y="437" width="72" height="35"/>
+                                        <rect key="frame" x="104.5" y="202" width="36" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="36" id="G7Q-gZ-cYN">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="72"/>
@@ -33,7 +487,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Où se cache donc le Marsupilami ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8l5-k4-g42">
-                                        <rect key="frame" x="8" y="8" width="464" height="464"/>
+                                        <rect key="frame" x="8" y="8" width="229" height="229"/>
                                         <fontDescription key="fontDescription" name="Balham" family="Balham" pointSize="23"/>
                                         <color key="textColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -61,15 +515,15 @@
                                 </connections>
                             </view>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3kL-nr-Vld">
-                                <rect key="frame" x="365.5" y="905.5" width="37" height="37"/>
+                                <rect key="frame" x="169" y="539.5" width="37" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="37" id="CUR-Bm-FsM"/>
                                     <constraint firstAttribute="height" constant="37" id="cTz-st-NxO"/>
                                 </constraints>
                                 <variation key="heightClass=compact" hidden="YES"/>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9u-gC-KLM">
-                                <rect key="frame" x="184" y="844" width="400" height="160"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9u-gC-KLM">
+                                <rect key="frame" x="87.5" y="518" width="200" height="80"/>
                                 <color key="backgroundColor" red="0.3520319462" green="0.55211168529999999" blue="0.7929778099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="oJC-bg-DQb">
@@ -91,7 +545,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 / 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xht-zD-d2h">
-                                <rect key="frame" x="311" y="518" width="146" height="60"/>
+                                <rect key="frame" x="151" y="327" width="73" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="b99-6R-fTJ"/>
                                 </constraints>
@@ -108,6 +562,7 @@
                                 </variation>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="1ai-JW-6tX"/>
                         <color key="backgroundColor" red="0.33832865950000002" green="0.41800630090000002" blue="0.51367163660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xht-zD-d2h" firstAttribute="top" secondItem="jKp-W7-thQ" secondAttribute="top" id="Abv-KB-Fxu"/>
@@ -126,16 +581,15 @@
                             <constraint firstItem="3kL-nr-Vld" firstAttribute="centerX" secondItem="k9u-gC-KLM" secondAttribute="centerX" id="vmR-F2-K6c"/>
                             <constraint firstItem="3kL-nr-Vld" firstAttribute="centerY" secondItem="k9u-gC-KLM" secondAttribute="centerY" id="xBC-Tf-ByX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="1ai-JW-6tX"/>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="D6q-dY-lns"/>
                                 <exclude reference="ieu-NI-Bbh"/>
                                 <exclude reference="SJm-AC-h4c"/>
                                 <exclude reference="qMg-3p-0EC"/>
-                                <exclude reference="YIz-FN-BjZ"/>
                                 <exclude reference="Abv-KB-Fxu"/>
                                 <exclude reference="lwo-7j-itF"/>
+                                <exclude reference="YIz-FN-BjZ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -147,15 +601,16 @@
                                 <include reference="SJm-AC-h4c"/>
                                 <exclude reference="b6m-NJ-ZLx"/>
                                 <include reference="qMg-3p-0EC"/>
-                                <exclude reference="Nr5-3F-Ghi"/>
-                                <include reference="YIz-FN-BjZ"/>
                                 <include reference="Abv-KB-Fxu"/>
                                 <exclude reference="ODh-vl-fq0"/>
                                 <exclude reference="SeP-Ul-Plg"/>
                                 <include reference="lwo-7j-itF"/>
+                                <exclude reference="Nr5-3F-Ghi"/>
+                                <include reference="YIz-FN-BjZ"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="Fle-ND-S2G"/>
                     <connections>
                         <outlet property="activityIndicator" destination="3kL-nr-Vld" id="MUU-Gl-Kvk"/>
                         <outlet property="newGameButton" destination="k9u-gC-KLM" id="pq5-aB-q9M"/>
@@ -165,10 +620,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364" y="-105"/>
+            <point key="canvasLocation" x="1123" y="342"/>
         </scene>
     </scenes>
     <resources>
         <image name="Icon Error" width="36" height="35"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
